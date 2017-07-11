@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BBCC8CA1EE37EAE00D347BB /* Harry Potter - Hedwig's Theme (Forekast Remix) (Mp3Goo.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BBCC8C91EE37EAE00D347BB /* Harry Potter - Hedwig's Theme (Forekast Remix) (Mp3Goo.com).mp3 */; };
+		9BBCC8CE1EE37EBF00D347BB /* Bomb_Exploding-Sound_Explorer-68256487 (mp3cut.net).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BBCC8CD1EE37EBF00D347BB /* Bomb_Exploding-Sound_Explorer-68256487 (mp3cut.net).mp3 */; };
+		9BBCC8D01EE37EC700D347BB /* Woosh-Mark_DiAngelo-4778593.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BBCC8CF1EE37EC700D347BB /* Woosh-Mark_DiAngelo-4778593.mp3 */; };
+		9BBCC8D21EE638D900D347BB /* Firstpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC8D11EE638D900D347BB /* Firstpage.swift */; };
+		9BE6CC851EDE402000E7CDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6CC841EDE402000E7CDEF /* AppDelegate.swift */; };
+		9BE6CC8B1EDE402000E7CDEF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6CC8A1EDE402000E7CDEF /* GameScene.swift */; };
+		9BE6CC8D1EDE402000E7CDEF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6CC8C1EDE402000E7CDEF /* GameViewController.swift */; };
+		9BE6CC901EDE402000E7CDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE6CC8E1EDE402000E7CDEF /* Main.storyboard */; };
+		9BE6CC921EDE402000E7CDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE6CC911EDE402000E7CDEF /* Assets.xcassets */; };
+		9BE6CC951EDE402000E7CDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE6CC931EDE402000E7CDEF /* LaunchScreen.storyboard */; };
+		9BE6CCA11EDE5BC600E7CDEF /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6CCA01EDE5BC600E7CDEF /* GameOverScene.swift */; };
+		9BE6CCD81EE2341100E7CDEF /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BE6CCD71EE2341100E7CDEF /* MyParticle.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BBCC8C91EE37EAE00D347BB /* Harry Potter - Hedwig's Theme (Forekast Remix) (Mp3Goo.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Harry Potter - Hedwig's Theme (Forekast Remix) (Mp3Goo.com).mp3"; sourceTree = SOURCE_ROOT; };
+		9BBCC8CD1EE37EBF00D347BB /* Bomb_Exploding-Sound_Explorer-68256487 (mp3cut.net).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bomb_Exploding-Sound_Explorer-68256487 (mp3cut.net).mp3"; sourceTree = SOURCE_ROOT; };
+		9BBCC8CF1EE37EC700D347BB /* Woosh-Mark_DiAngelo-4778593.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Woosh-Mark_DiAngelo-4778593.mp3"; sourceTree = SOURCE_ROOT; };
+		9BBCC8D11EE638D900D347BB /* Firstpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firstpage.swift; sourceTree = "<group>"; };
+		9BE6CC811EDE402000E7CDEF /* JITHIN_GAME_TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JITHIN_GAME_TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE6CC841EDE402000E7CDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BE6CC8A1EDE402000E7CDEF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9BE6CC8C1EDE402000E7CDEF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9BE6CC8F1EDE402000E7CDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE6CC911EDE402000E7CDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE6CC941EDE402000E7CDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BE6CC961EDE402000E7CDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE6CCA01EDE5BC600E7CDEF /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		9BE6CCD71EE2341100E7CDEF /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE6CC7E1EDE402000E7CDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BE6CC781EDE402000E7CDEF = {
+			isa = PBXGroup;
+			children = (
+				9BE6CC831EDE402000E7CDEF /* JITHIN_GAME_TEST */,
+				9BE6CC821EDE402000E7CDEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE6CC821EDE402000E7CDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE6CC811EDE402000E7CDEF /* JITHIN_GAME_TEST.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BE6CC831EDE402000E7CDEF /* JITHIN_GAME_TEST */ = {
+			isa = PBXGroup;
+			children = (
+				9BE6CC841EDE402000E7CDEF /* AppDelegate.swift */,
+				9BE6CC8A1EDE402000E7CDEF /* GameScene.swift */,
+				9BE6CC8C1EDE402000E7CDEF /* GameViewController.swift */,
+				9BE6CC8E1EDE402000E7CDEF /* Main.storyboard */,
+				9BE6CC911EDE402000E7CDEF /* Assets.xcassets */,
+				9BE6CC931EDE402000E7CDEF /* LaunchScreen.storyboard */,
+				9BE6CC961EDE402000E7CDEF /* Info.plist */,
+				9BE6CCA01EDE5BC600E7CDEF /* GameOverScene.swift */,
+				9BE6CCA41EDF941400E7CDEF /* Sounds */,
+				9BE6CCD71EE2341100E7CDEF /* MyParticle.sks */,
+				9BBCC8D11EE638D900D347BB /* Firstpage.swift */,
+			);
+			path = JITHIN_GAME_TEST;
+			sourceTree = "<group>";
+		};
+		9BE6CCA41EDF941400E7CDEF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9BBCC8CF1EE37EC700D347BB /* Woosh-Mark_DiAngelo-4778593.mp3 */,
+				9BBCC8CD1EE37EBF00D347BB /* Bomb_Exploding-Sound_Explorer-68256487 (mp3cut.net).mp3 */,
+				9BBCC8C91EE37EAE00D347BB /* Harry Potter - Hedwig's Theme (Forekast Remix) (Mp3Goo.com).mp3 */,
+			);
+			name = Sounds;
+			path = ../../../Desktop/SpriteKitSimpleGameResources/Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BE6CC801EDE402000E7CDEF /* JITHIN_GAME_TEST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE6CC991EDE402000E7CDEF /* Build configuration list for PBXNativeTarget "JITHIN_GAME_TEST" */;
+			buildPhases = (
+				9BE6CC7D1EDE402000E7CDEF /* Sources */,
+				9BE6CC7E1EDE402000E7CDEF /* Frameworks */,
+				9BE6CC7F1EDE402000E7CDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JITHIN_GAME_TEST;
+			productName = JITHIN_GAME_TEST;
+			productReference = 9BE6CC811EDE402000E7CDEF /* JITHIN_GAME_TEST.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BE6CC791EDE402000E7CDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MacStudent;
+				TargetAttributes = {
+					9BE6CC801EDE402000E7CDEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9BE6CC7C1EDE402000E7CDEF /* Build configuration list for PBXProject "JITHIN_GAME_TEST" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BE6CC781EDE402000E7CDEF;
+			productRefGroup = 9BE6CC821EDE402000E7CDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE6CC801EDE402000E7CDEF /* JITHIN_GAME_TEST */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BE6CC7F1EDE402000E7CDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE6CC901EDE402000E7CDEF /* Main.storyboard in Resources */,
+				9BBCC8CE1EE37EBF00D347BB /* Bomb_Exploding-Sound_Explorer-68256487 (mp3cut.net).mp3 in Resources */,
+				9BBCC8D01EE37EC700D347BB /* Woosh-Mark_DiAngelo-4778593.mp3 in Resources */,
+				9BE6CC921EDE402000E7CDEF /* Assets.xcassets in Resources */,
+				9BE6CC951EDE402000E7CDEF /* LaunchScreen.storyboard in Resources */,
+				9BE6CCD81EE2341100E7CDEF /* MyParticle.sks in Resources */,
+				9BBCC8CA1EE37EAE00D347BB /* Harry Potter - Hedwig's Theme (Forekast Remix) (Mp3Goo.com).mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BE6CC7D1EDE402000E7CDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE6CC8B1EDE402000E7CDEF /* GameScene.swift in Sources */,
+				9BE6CC8D1EDE402000E7CDEF /* GameViewController.swift in Sources */,
+				9BE6CCA11EDE5BC600E7CDEF /* GameOverScene.swift in Sources */,
+				9BE6CC851EDE402000E7CDEF /* AppDelegate.swift in Sources */,
+				9BBCC8D21EE638D900D347BB /* Firstpage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BE6CC8E1EDE402000E7CDEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE6CC8F1EDE402000E7CDEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE6CC931EDE402000E7CDEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE6CC941EDE402000E7CDEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BE6CC971EDE402000E7CDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BE6CC981EDE402000E7CDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BE6CC9A1EDE402000E7CDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JITHIN_GAME_TEST/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.JITHIN-GAME-TEST";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9BE6CC9B1EDE402000E7CDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JITHIN_GAME_TEST/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.JITHIN-GAME-TEST";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BE6CC7C1EDE402000E7CDEF /* Build configuration list for PBXProject "JITHIN_GAME_TEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE6CC971EDE402000E7CDEF /* Debug */,
+				9BE6CC981EDE402000E7CDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE6CC991EDE402000E7CDEF /* Build configuration list for PBXNativeTarget "JITHIN_GAME_TEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE6CC9A1EDE402000E7CDEF /* Debug */,
+				9BE6CC9B1EDE402000E7CDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BE6CC791EDE402000E7CDEF /* Project object */;
+}
