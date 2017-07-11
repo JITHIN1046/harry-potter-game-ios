@@ -8,7 +8,6 @@
 
 
 import SpriteKit
-import CoreMotion
 
 var scoreLable: SKLabelNode!
 var score: Int = 0 {
@@ -68,57 +67,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     // 1
     let player = SKSpriteNode(imageNamed: "player")
     var monstersDestroyed = 0
-    let motionManger = CMMotionManager()
-    let xAcceleration:CGFloat = 0
-    var playerName = ""
     
-    var playerImage = "player"
-    
-    var isMoving = false
-    
-    init(size: CGSize, usrName: String) {
-        
-        playerName = usrName
-        
-        if playerName == "player1" {
-            
-            playerImage = "player1"
-            
-        }
-        
-        super.init(size: size)
-        
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        
-        fatalError("init(coder:) has not been implemented")
-        
-    }
- 
     override func didMove(to view: SKView) {
-        
-        // 2
-        
-        backgroundColor = SKColor.white
-        
-        // 3
-        
-        player.position = CGPoint(x: size.width * 0.1, y: size.height * 0.5)
-        
-        // 4
-        
-        player.name = "player"
-        
-        addChild(player)
-        
-        physicsWorld.gravity = CGVector.zero
-        
-        physicsWorld.contactDelegate = self
-    
-
-    
-    func didMove(to view: SKView) {
         // 2
         backgroundColor = SKColor.black
         // 3
@@ -149,10 +99,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         //backgroundMusic.autoplayLooped = true
         //addChild(backgroundMusic)
         
-       
-        
     }
-    
     
     
     func random() -> CGFloat {
@@ -189,65 +136,23 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         // Create the actions
         let actionMove = SKAction.move(to: CGPoint(x: actualX , y: -monster.size.width/2), duration: TimeInterval(actualDuration))
-        //let actionMoveDone = SKAction.removeFromParent()
-        let actionMoveDone = SKAction.move(to: CGPoint(x: actualX, y: size.height - monster.size.height/2), duration: TimeInterval(actualDuration))
+        let actionMoveDone = SKAction.removeFromParent()
         
-        monster.run(SKAction.repeatForever(
-            
-            SKAction.sequence([actionMove, actionMoveDone])
-            
-        ))
-
-        
-        
-        
-        
-        //let loseAction = SKAction.run() {
-            //let reveal = SKTransition.flipHorizontal(withDuration: 0.5)
-            //let gameOverScene = GameOverScene(size: self.size, won: false , score: score)
-            //self.view?.presentScene(gameOverScene, transition: reveal)
-        //}
-        
-        //monster.run(SKAction.sequence([actionMove, loseAction, actionMoveDone]))
-        
-        
-        
-        
-        
-    }
-    var IsCatched: Bool = false
-    
-
-    func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        guard let touch = touches.first else {
-            return
+        let loseAction = SKAction.run() {
+            let reveal = SKTransition.flipHorizontal(withDuration: 0.5)
+            let gameOverScene = GameOverScene(size: self.size, won: false , score: score)
+            self.view?.presentScene(gameOverScene, transition: reveal)
         }
-        let touchLocation = touch.location(in: self)
+        monster.run(SKAction.sequence([actionMove, loseAction, actionMoveDone]))
         
-        let node = self.atPoint(touchLocation)
         
-        if node == self.player {
-            IsCatched = true
-        }
+        
+        
         
     }
     
-    func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        guard let touch = touches.first else {
-            return
-        }
-        let touchLocation = touch.location(in: self)
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         
-        if IsCatched {
-            // player position change
-            player.position.x = touchLocation.x
-            //player.position.y = touchLocation.y
-        }
-        
-    }
-    func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        IsCatched = false
-
         run(SKAction.playSoundFileNamed("Woosh-Mark_DiAngelo-4778593.mp3", waitForCompletion: false))
         
         // 1 - Choose one of the touches to work with
@@ -294,9 +199,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         projectile.run(SKAction.sequence([actionMove, actionMoveDone]))
         
     }
-    
-    
-   
     
     func projectileDidCollideWithMonster(projectile: SKSpriteNode, monster: SKSpriteNode ) {
         run(SKAction.playSoundFileNamed("Bomb_Exploding-Sound_Explorer-68256487 (mp3cut.net).mp3", waitForCompletion: false))
@@ -350,8 +252,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
         
     }
-
-   
-    }
-
+    
+    
+    
+    
+    
 }

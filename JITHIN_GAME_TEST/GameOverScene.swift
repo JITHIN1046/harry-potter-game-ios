@@ -35,7 +35,7 @@ class GameOverScene: SKScene {
             SKAction.run() {
                 // 5
                 let reveal = SKTransition.flipHorizontal(withDuration: 0.5)
-                let scene = Firstpage(size: size)
+                let scene = GameScene(size: size)
                 self.view?.presentScene(scene, transition:reveal)
             }
             ]))

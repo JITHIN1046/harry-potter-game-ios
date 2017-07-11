@@ -165,7 +165,7 @@ class Firstpage: SKScene {
                 
                 let reveal = SKTransition.flipHorizontal(withDuration: 0.5)
                 
-                let scene = GameScene(size: size, usrName: player)
+                let scene = GameScene(size: size)
                 
                 self.view?.presentScene(scene, transition:reveal)
                 
