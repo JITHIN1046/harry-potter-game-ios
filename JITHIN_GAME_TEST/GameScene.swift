@@ -95,9 +95,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         score = 0
         self.addChild(scoreLable)
         
-        //let backgroundMusic = SKAudioNode(fileNamed: "Harry Potter - Hedwig's Theme (Forekast Remix) (Mp3Goo.com).mp3")
-        //backgroundMusic.autoplayLooped = true
-        //addChild(backgroundMusic)
+        let backgroundMusic = SKAudioNode(fileNamed: "Harry Potter - Hedwig's Theme (Forekast Remix) (Mp3Goo.com).mp3")
+        backgroundMusic.autoplayLooped = true
+        addChild(backgroundMusic)
         
     }
     
